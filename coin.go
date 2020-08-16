@@ -9,4 +9,5 @@ with the License.  You may obtain a copy of the License at
 
   http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed 
+Unless required by applicable law or agreed to in writing,
+software distribut
