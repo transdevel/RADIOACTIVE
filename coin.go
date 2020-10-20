@@ -17,4 +17,6 @@ specific language governing permissions and limitations
 under the License.
 */
 
-// ====CHAINCODE EXECUTION SAMPLES (C
+// ====CHAINCODE EXECUTION SAMPLES (CLI) ==================
+
+// ==== Invoke 
