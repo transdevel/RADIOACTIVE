@@ -19,4 +19,5 @@ under the License.
 
 // ====CHAINCODE EXECUTION SAMPLES (CLI) ==================
 
-// ==== Invoke 
+// ==== Invoke coins ====
+// peer chaincode invoke -C 
