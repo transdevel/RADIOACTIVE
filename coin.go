@@ -20,4 +20,5 @@ under the License.
 // ====CHAINCODE EXECUTION SAMPLES (CLI) ==================
 
 // ==== Invoke coins ====
-// peer chaincode invoke -C myc1 -n coins -c '{"Args":["initCoin","coin1","blue","35",
+// peer chaincode invoke -C myc1 -n coins -c '{"Args":["initCoin","coin1","blue","35","tom"]}'
+// peer chaincode inv
