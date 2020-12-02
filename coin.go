@@ -27,4 +27,5 @@ under the License.
 // peer chaincode invoke -C myc1 -n coins -c '{"Args":["transferCoinsBasedOnColor","blue","jerry"]}'
 // peer chaincode invoke -C myc1 -n coins -c '{"Args":["delete","coin1"]}'
 
-// ==== Query coins
+// ==== Query coins ====
+// peer chaincode quer
