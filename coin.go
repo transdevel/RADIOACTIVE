@@ -29,4 +29,5 @@ under the License.
 
 // ==== Query coins ====
 // peer chaincode query -C myc1 -n coins -c '{"Args":["readCoin","coin1"]}'
-// peer chaincode query -C myc1 -n coins -c '{"Args":["getCoinsByRange","coin1","coin3
+// peer chaincode query -C myc1 -n coins -c '{"Args":["getCoinsByRange","coin1","coin3"]}'
+// peer chaincode query -C
