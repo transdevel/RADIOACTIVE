@@ -32,4 +32,4 @@ under the License.
 // peer chaincode query -C myc1 -n coins -c '{"Args":["getCoinsByRange","coin1","coin3"]}'
 // peer chaincode query -C myc1 -n coins -c '{"Args":["getHistoryForCoin","coin1"]}'
 
-// Rich 
+// Rich Query (Only supported if CouchDB 
