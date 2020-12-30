@@ -33,4 +33,4 @@ under the License.
 // peer chaincode query -C myc1 -n coins -c '{"Args":["getHistoryForCoin","coin1"]}'
 
 // Rich Query (Only supported if CouchDB is used as state database):
-//   peer chaincode 
+//   peer chaincode query -C myc1 -n coins -c '{"Args":
