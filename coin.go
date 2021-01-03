@@ -36,4 +36,5 @@ under the License.
 //   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoinsByOwner","tom"]}'
 //   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoins","{\"selector\":{\"owner\":\"tom\"}}"]}'
 
-// INDEXES
+// INDEXES TO SUPPORT COUCHDB RICH QUERIES
+/
