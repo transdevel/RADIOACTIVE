@@ -38,4 +38,5 @@ under the License.
 
 // INDEXES TO SUPPORT COUCHDB RICH QUERIES
 //
-// Indexes in CouchDB are required in order to make JSON queries e
+// Indexes in CouchDB are required in order to make JSON queries efficient and are required for
+// 
