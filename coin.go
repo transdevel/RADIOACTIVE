@@ -39,4 +39,5 @@ under the License.
 // INDEXES TO SUPPORT COUCHDB RICH QUERIES
 //
 // Indexes in CouchDB are required in order to make JSON queries efficient and are required for
-// any JSON query with a sort. As of Hyperledger Fabric 1.1, indexes may be pac
+// any JSON query with a sort. As of Hyperledger Fabric 1.1, indexes may be packaged alongside
+// chaincode in a MET
