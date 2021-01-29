@@ -40,4 +40,5 @@ under the License.
 //
 // Indexes in CouchDB are required in order to make JSON queries efficient and are required for
 // any JSON query with a sort. As of Hyperledger Fabric 1.1, indexes may be packaged alongside
-// chaincode in a META-INF/statedb/couchdb/indexes directory. Each index must be defined in it
+// chaincode in a META-INF/statedb/couchdb/indexes directory. Each index must be defined in its own
+// text file with extension *.jso
