@@ -42,4 +42,5 @@ under the License.
 // any JSON query with a sort. As of Hyperledger Fabric 1.1, indexes may be packaged alongside
 // chaincode in a META-INF/statedb/couchdb/indexes directory. Each index must be defined in its own
 // text file with extension *.json with the index definition formatted in JSON following the
-// Couch
+// CouchDB index JSON syntax as documented at:
+// http
