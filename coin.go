@@ -45,4 +45,4 @@ under the License.
 // CouchDB index JSON syntax as documented at:
 // http://docs.couchdb.org/en/2.1.1/api/database/find.html#db-index
 //
-// This coins0
+// This coins02 example chaincode demonstrates a p
