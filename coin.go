@@ -43,4 +43,4 @@ under the License.
 // chaincode in a META-INF/statedb/couchdb/indexes directory. Each index must be defined in its own
 // text file with extension *.json with the index definition formatted in JSON following the
 // CouchDB index JSON syntax as documented at:
-// http
+// http://docs.couchdb.org/en/2.1.1/api/database/fin
