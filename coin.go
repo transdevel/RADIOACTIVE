@@ -48,4 +48,4 @@ under the License.
 // This coins02 example chaincode demonstrates a packaged
 // index which you can find in META-INF/statedb/couchdb/indexes/indexOwner.json.
 // For deployment of chaincode to production environments, it is recommended
-// to define any indexes alongside chaincode so
+// to define any indexes alongside chaincode so that the chaincode and supporting
