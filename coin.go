@@ -50,4 +50,4 @@ under the License.
 // For deployment of chaincode to production environments, it is recommended
 // to define any indexes alongside chaincode so that the chaincode and supporting indexes
 // are deployed automatically as a unit, once the chaincode has been installed on a peer and
-// instantiated on a chan
+// instantiated on a channel. See Hyperledger Fabric documentation for
