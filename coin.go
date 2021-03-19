@@ -53,4 +53,5 @@ under the License.
 // instantiated on a channel. See Hyperledger Fabric documentation for more details.
 //
 // If you have access to the your peer's CouchDB state database in a development environment,
-// you may want to iteratively test various indexes in support of your chaincode
+// you may want to iteratively test various indexes in support of your chaincode queries.  You
+// can use the 
