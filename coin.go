@@ -54,4 +54,4 @@ under the License.
 //
 // If you have access to the your peer's CouchDB state database in a development environment,
 // you may want to iteratively test various indexes in support of your chaincode queries.  You
-// can use the CouchDB Fauxton interface o
+// can use the CouchDB Fauxton interface or a command line curl utility to create and 
