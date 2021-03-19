@@ -52,4 +52,5 @@ under the License.
 // are deployed automatically as a unit, once the chaincode has been installed on a peer and
 // instantiated on a channel. See Hyperledger Fabric documentation for more details.
 //
-// If you have access to the your peer's CouchDB state database in a developme
+// If you have access to the your peer's CouchDB state database in a development environment,
+// you may want to
