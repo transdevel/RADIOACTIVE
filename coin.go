@@ -56,4 +56,4 @@ under the License.
 // you may want to iteratively test various indexes in support of your chaincode queries.  You
 // can use the CouchDB Fauxton interface or a command line curl utility to create and update
 // indexes. Then once you finalize an index, include the index definition alongside your
-// chaincode in the META-IN
+// chaincode in the META-INF/statedb/couchdb/indexes dir
