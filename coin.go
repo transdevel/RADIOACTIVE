@@ -57,4 +57,6 @@ under the License.
 // can use the CouchDB Fauxton interface or a command line curl utility to create and update
 // indexes. Then once you finalize an index, include the index definition alongside your
 // chaincode in the META-INF/statedb/couchdb/indexes directory, for packaging and deployment
+// to managed environments.
 //
+// In the examples
