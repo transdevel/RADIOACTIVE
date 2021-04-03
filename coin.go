@@ -59,4 +59,5 @@ under the License.
 // chaincode in the META-INF/statedb/couchdb/indexes directory, for packaging and deployment
 // to managed environments.
 //
-// In the examples below you can find index definitions that su
+// In the examples below you can find index definitions that support coins02
+// chaincode queries,
