@@ -60,4 +60,4 @@ under the License.
 // to managed environments.
 //
 // In the examples below you can find index definitions that support coins02
-// chaincode queries,
+// chaincode queries, along with the syntax that y
