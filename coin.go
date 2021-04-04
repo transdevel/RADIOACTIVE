@@ -61,4 +61,5 @@ under the License.
 //
 // In the examples below you can find index definitions that support coins02
 // chaincode queries, along with the syntax that you can use in development environments
-// to create the indexes in the CouchDB Fauxton interface or a cur
+// to create the indexes in the CouchDB Fauxton interface or a curl command line utility.
+//
