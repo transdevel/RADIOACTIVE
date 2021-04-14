@@ -63,3 +63,5 @@ under the License.
 // chaincode queries, along with the syntax that you can use in development environments
 // to create the indexes in the CouchDB Fauxton interface or a curl command line utility.
 //
+
+//Example hostname:port configuration
