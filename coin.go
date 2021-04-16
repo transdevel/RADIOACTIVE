@@ -64,4 +64,6 @@ under the License.
 // to create the indexes in the CouchDB Fauxton interface or a curl command line utility.
 //
 
-//Example hostname:port configuration
+//Example hostname:port configurations to access CouchDB.
+//
+//To
