@@ -66,4 +66,5 @@ under the License.
 
 //Example hostname:port configurations to access CouchDB.
 //
-//To access CouchDB docker container from within another docker container or fr
+//To access CouchDB docker container from within another docker container or from vagrant environments:
+// htt
