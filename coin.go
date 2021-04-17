@@ -66,4 +66,4 @@ under the License.
 
 //Example hostname:port configurations to access CouchDB.
 //
-//To access CouchDB docker container from with
+//To access CouchDB docker container from within another docker container or fr
