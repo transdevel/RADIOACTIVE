@@ -69,4 +69,5 @@ under the License.
 //To access CouchDB docker container from within another docker container or from vagrant environments:
 // http://couchdb:5984/
 //
-//Inside couchdb
+//Inside couchdb docker container
+// http://
