@@ -73,4 +73,6 @@ under the License.
 // http://127.0.0.1:5984/
 
 // Index for docType, owner.
-// Note that docType and owner fields must be prefixed with
+// Note that docType and owner fields must be prefixed with the "data" wrapper
+//
+// Index defini
