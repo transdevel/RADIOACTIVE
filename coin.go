@@ -70,4 +70,6 @@ under the License.
 // http://couchdb:5984/
 //
 //Inside couchdb docker container
-// http://
+// http://127.0.0.1:5984/
+
+// Index for docType, own
