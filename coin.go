@@ -72,4 +72,5 @@ under the License.
 //Inside couchdb docker container
 // http://127.0.0.1:5984/
 
-// Index for docType, own
+// Index for docType, owner.
+// Note that docType and owner f
