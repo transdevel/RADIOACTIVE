@@ -75,4 +75,5 @@ under the License.
 // Index for docType, owner.
 // Note that docType and owner fields must be prefixed with the "data" wrapper
 //
-// Index definition for use with Fauxton interf
+// Index definition for use with Fauxton interface
+// {"index":{"fields":["data.d
