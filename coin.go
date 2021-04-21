@@ -76,4 +76,4 @@ under the License.
 // Note that docType and owner fields must be prefixed with the "data" wrapper
 //
 // Index definition for use with Fauxton interface
-// {"index":{"fields":["data.docType","data.owner"]},"ddoc":"indexOwnerDoc"
+// {"index":{"fields":["data.docType","data.owner"]},"ddoc":"indexOwnerDoc", "name":"indexOwner","type":"json"}
