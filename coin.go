@@ -78,4 +78,5 @@ under the License.
 // Index definition for use with Fauxton interface
 // {"index":{"fields":["data.docType","data.owner"]},"ddoc":"indexOwnerDoc", "name":"indexOwner","type":"json"}
 //
-// Example curl command line to define index in the Cou
+// Example curl command line to define index in the CouchDB channel_chaincode database
+// curl
