@@ -79,4 +79,4 @@ under the License.
 // {"index":{"fields":["data.docType","data.owner"]},"ddoc":"indexOwnerDoc", "name":"indexOwner","type":"json"}
 //
 // Example curl command line to define index in the CouchDB channel_chaincode database
-// curl
+// curl -i -X POST -H "Content-Type: a
