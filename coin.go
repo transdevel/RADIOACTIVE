@@ -80,3 +80,6 @@ under the License.
 //
 // Example curl command line to define index in the CouchDB channel_chaincode database
 // curl -i -X POST -H "Content-Type: application/json" -d "{\"index\":{\"fields\":[\"data.docType\",\"data.owner\"]},\"name\":\"indexOwner\",\"ddoc\":\"indexOwnerDoc\",\"type\":\"json\"}" http://hostname:port/myc1_coins/_index
+//
+
+// Index for docType, own
