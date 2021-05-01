@@ -82,4 +82,5 @@ under the License.
 // curl -i -X POST -H "Content-Type: application/json" -d "{\"index\":{\"fields\":[\"data.docType\",\"data.owner\"]},\"name\":\"indexOwner\",\"ddoc\":\"indexOwnerDoc\",\"type\":\"json\"}" http://hostname:port/myc1_coins/_index
 //
 
-// Index for docType, own
+// Index for docType, owner, size (descending order).
+// Note that 
