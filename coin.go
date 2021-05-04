@@ -83,4 +83,4 @@ under the License.
 //
 
 // Index for docType, owner, size (descending order).
-// Note that docType, owner and size fields 
+// Note that docType, owner and size fields must be prefixed with the "data" wrappe
