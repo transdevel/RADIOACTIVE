@@ -85,4 +85,5 @@ under the License.
 // Index for docType, owner, size (descending order).
 // Note that docType, owner and size fields must be prefixed with the "data" wrapper
 //
-// Index definition fo
+// Index definition for use with Fauxton interface
+// 
