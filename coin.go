@@ -86,4 +86,6 @@ under the License.
 // Note that docType, owner and size fields must be prefixed with the "data" wrapper
 //
 // Index definition for use with Fauxton interface
-// {"index":{"fields":[{"data.size":"desc"},{"data.docType":"desc"},{"data.owner":"desc"}]},"ddoc":"indexSizeSortDoc", "name":"indexSizeSortDesc","
+// {"index":{"fields":[{"data.size":"desc"},{"data.docType":"desc"},{"data.owner":"desc"}]},"ddoc":"indexSizeSortDoc", "name":"indexSizeSortDesc","type":"json"}
+//
+// Example curl comma
