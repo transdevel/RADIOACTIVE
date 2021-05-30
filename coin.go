@@ -94,4 +94,4 @@ under the License.
 // Rich Query with index design doc and index name specified (Only supported if CouchDB is used as state database):
 //   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoins","{\"selector\":{\"docType\":\"coin\",\"owner\":\"tom\"}, \"use_index\":[\"_design/indexOwnerDoc\", \"indexOwner\"]}"]}'
 
-// Rich Query with ind
+// Rich Query with index design doc specifie
