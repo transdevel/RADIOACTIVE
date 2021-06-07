@@ -95,4 +95,8 @@ under the License.
 //   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoins","{\"selector\":{\"docType\":\"coin\",\"owner\":\"tom\"}, \"use_index\":[\"_design/indexOwnerDoc\", \"indexOwner\"]}"]}'
 
 // Rich Query with index design doc specified only (Only supported if CouchDB is used as state database):
-//   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoins","{\"selector\":{\"docType\":{\"$eq\":\"coin\"},\"owner\":{\"$eq\":\"tom\"},\"size\":{\"$gt\":0}},\"fields\":[\"docType\",\"owner\",\"size\"],\"sort\":[{\"size\":\"desc\"}],\"use_index\":\"_design/index
+//   peer chaincode query -C myc1 -n coins -c '{"Args":["queryCoins","{\"selector\":{\"docType\":{\"$eq\":\"coin\"},\"owner\":{\"$eq\":\"tom\"},\"size\":{\"$gt\":0}},\"fields\":[\"docType\",\"owner\",\"size\"],\"sort\":[{\"size\":\"desc\"}],\"use_index\":\"_design/indexSizeSortDoc\"}"]}'
+
+package main
+
+imp
