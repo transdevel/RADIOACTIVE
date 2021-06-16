@@ -108,4 +108,4 @@ import (
 	"time"
 
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	pb "github.com/
+	pb "github.com/hyperledger/fabric/protos/
