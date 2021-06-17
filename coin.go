@@ -111,4 +111,5 @@ import (
 	pb "github.com/hyperledger/fabric/protos/peer"
 )
 
-// SimpleChaincode exampl
+// SimpleChaincode example simple Chaincode implementation
+type S
