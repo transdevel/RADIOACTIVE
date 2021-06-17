@@ -112,4 +112,7 @@ import (
 )
 
 // SimpleChaincode example simple Chaincode implementation
-type S
+type SimpleChaincode struct {
+}
+
+type coin st
