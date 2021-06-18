@@ -115,4 +115,6 @@ import (
 type SimpleChaincode struct {
 }
 
-type coin st
+type coin struct {
+	Name	string `json:"Name"`
+	Am
