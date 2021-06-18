@@ -117,4 +117,4 @@ type SimpleChaincode struct {
 
 type coin struct {
 	Name	string `json:"Name"`
-	Am
+	Amount       string `json:"amount
