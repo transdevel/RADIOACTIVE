@@ -117,4 +117,4 @@ type SimpleChaincode struct {
 
 type coin struct {
 	Name	string `json:"Name"`
-	Amount       string `json:"amount
+	Amount       string `json:"amount"`    //the fieldtags are needed to keep 
