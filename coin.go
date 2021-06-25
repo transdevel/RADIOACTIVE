@@ -125,4 +125,5 @@ type coin struct {
 // Main
 // ===================================================================================
 func main() {
-	err :=
+	err := shim.Start(new(SimpleChaincode))
+	if err !=
