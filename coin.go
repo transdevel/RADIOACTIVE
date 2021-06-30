@@ -133,4 +133,4 @@ func main() {
 
 // Init initializes chaincode
 // ===========================
-func
+func (t *SimpleChaincode) Init(stub shim.C
