@@ -132,4 +132,5 @@ func main() {
 }
 
 // Init initializes chaincode
-/
+// ===========================
+func
