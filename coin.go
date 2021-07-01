@@ -133,4 +133,4 @@ func main() {
 
 // Init initializes chaincode
 // ===========================
-func (t *SimpleChaincode) Init(stub shim.C
+func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Respons
