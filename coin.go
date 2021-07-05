@@ -137,4 +137,5 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 	return shim.Success(nil)
 }
 
-// Invoke - Our entry point for Invocat
+// Invoke - Our entry point for Invocations
+// ==========================
