@@ -141,4 +141,6 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 // ========================================
 func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	function, args := stub.GetFunctionAndParameters()
-	fmt.Println("invoke is runni
+	fmt.Println("invoke is running " + function)
+
+	// Handle diff
