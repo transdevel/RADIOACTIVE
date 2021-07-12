@@ -145,4 +145,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 
 	// Handle different functions
 	if function == "initCoin" { //create a new coin
-		return t.initCoin(
+		return t.initCoin(stub, args)
+	} else if function == 
