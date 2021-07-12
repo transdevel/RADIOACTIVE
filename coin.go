@@ -146,4 +146,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	// Handle different functions
 	if function == "initCoin" { //create a new coin
 		return t.initCoin(stub, args)
-	} else if function == 
+	} else if function == "initLedger" {
+		return s.initLedger
