@@ -148,4 +148,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 		return t.initCoin(stub, args)
 	} else if function == "initLedger" {
 		return s.initLedger(APIstub)
-	} else if fun
+	} else if function == "transferCoin" { //c
