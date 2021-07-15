@@ -150,4 +150,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 		return s.initLedger(APIstub)
 	} else if function == "transferCoin" { //change owner of a specific coin
 		return t.transferCoin(stub, args)
-	} else if 
+	} else if function == "delete" { //delet
