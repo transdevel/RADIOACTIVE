@@ -151,4 +151,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	} else if function == "transferCoin" { //change owner of a specific coin
 		return t.transferCoin(stub, args)
 	} else if function == "delete" { //delete a coin
-		return t.delete(stub, a
+		return t.delete(stub, args)
+	} else if function == 
