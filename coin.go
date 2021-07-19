@@ -153,4 +153,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	} else if function == "delete" { //delete a coin
 		return t.delete(stub, args)
 	} else if function == "readCoin" { //read a coin
-		return
+		return t.readCoin(stub, args)
+	} el
