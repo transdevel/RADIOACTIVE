@@ -156,4 +156,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 		return t.readCoin(stub, args)
 	} else if function == "queryCoinsByOwner" { //find coins for owner X using rich query
 		return t.queryCoinsByOwner(stub, args)
-	} else if function == "queryCoins" { //fi
+	} else if function == "queryCoins" { //find coins based on an ad 
