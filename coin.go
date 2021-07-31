@@ -159,4 +159,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	} else if function == "queryCoins" { //find coins based on an ad hoc rich query
 		return t.queryCoins(stub, args)
 	} else if function == "getHistoryForCoin" { //get history of values for a coin
-		retur
+		return t.getHistoryForCoin(stub, args)
