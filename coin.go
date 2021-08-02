@@ -162,3 +162,6 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 		return t.getHistoryForCoin(stub, args)
 	} else if function == "getCoinsByRange" { //get coins based on range query
 		return t.getCoinsByRange(stub, args)
+	}
+
+	fmt.Println("invoke did not 
