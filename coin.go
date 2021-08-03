@@ -164,4 +164,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 		return t.getCoinsByRange(stub, args)
 	}
 
-	fmt.Println("invoke did not 
+	fmt.Println("invoke did not find func: " + function) //error
+	return 
