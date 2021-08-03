@@ -165,4 +165,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	}
 
 	fmt.Println("invoke did not find func: " + function) //error
-	return 
+	return shim.Error("Received unknown functi
