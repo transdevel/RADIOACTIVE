@@ -168,4 +168,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 	return shim.Error("Received unknown function invocation")
 }
 
-// =======================================
+// ============================================================
+// initCoin 
