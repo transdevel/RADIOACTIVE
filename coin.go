@@ -169,4 +169,4 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 }
 
 // ============================================================
-// initCoin 
+// initCoin - create a new coin, s
