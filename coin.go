@@ -170,4 +170,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 
 // ============================================================
 // initCoin - create a new coin, store into chaincode state
-// =======================================
+// ============================================================
+func (t *SimpleChain
