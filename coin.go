@@ -174,4 +174,5 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
 func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 	var err error
 
-	//   0    
+	//   0       1       2  
+	// "coin1",  "aCent",  
