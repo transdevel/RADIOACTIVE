@@ -177,4 +177,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//   0       1       2  
 	// "coin1",  "aCent",   "bob"
 	if len(args) != 3 {
-		
+		return shim.Error("Incorrect number
