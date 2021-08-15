@@ -178,4 +178,6 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	// "coin1",  "aCent",   "bob"
 	if len(args) != 3 {
 		return shim.Error("Incorrect number of arguments. Expecting 3")
-	
+	}
+
+	// ==== Input sanitation ===
