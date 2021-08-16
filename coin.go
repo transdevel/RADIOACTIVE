@@ -183,3 +183,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	// ==== Input sanitation ====
 	fmt.Println("- start init coin")
 	if len(args[0]) <= 0 {
+		return shim.Error("1st argument must
