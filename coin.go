@@ -189,4 +189,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error("2nd argument must be a non-empty string")
 	}
 	if len(args[2]) <= 0 {
-		return shim.Error("3rd
+		return shim.Error("3rd argument must be a non-emp
