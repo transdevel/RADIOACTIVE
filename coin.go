@@ -192,4 +192,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error("3rd argument must be a non-empty string")
 	}
 	coinName := args[0]
-	owne
+	owner := strings.ToLower(args[2])
+	amount := s
