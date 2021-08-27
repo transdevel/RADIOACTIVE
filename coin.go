@@ -193,4 +193,7 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	}
 	coinName := args[0]
 	owner := strings.ToLower(args[2])
-	amount := s
+	amount := strings.ToLower(args[1])
+
+
+	// ==== Check if
