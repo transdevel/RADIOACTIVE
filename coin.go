@@ -196,4 +196,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	amount := strings.ToLower(args[1])
 
 
-	// ==== Check if
+	// ==== Check if coin already exists ====
+	coinAsBytes
