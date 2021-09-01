@@ -200,4 +200,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	coinAsBytes, err := stub.GetState(coinName)
 	if err != nil {
 		return shim.Error("Failed to get coin: " + err.Error())
-	} else if coin
+	} else if coinAsBytes != nil {
+		fmt.Println("Th
