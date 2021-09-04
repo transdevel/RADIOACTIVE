@@ -205,4 +205,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error("This coin already exists: " + coinName)
 	}
 
-	// ===
+	// ==== Create coin object and marsha
