@@ -207,4 +207,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 
 	// ==== Create coin object and marshal to JSON ====
 	//objectType := "coin"
-	coin := &coin{coinName, amoun
+	coin := &coin{coinName, amount , owner}
+	coinJSONasBytes, err 
