@@ -209,3 +209,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//objectType := "coin"
 	coin := &coin{coinName, amount , owner}
 	coinJSONasBytes, err := json.Marshal(coin)
+	if err != nil {
+		return shim.Error(err.Error
