@@ -212,4 +212,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	//Alternatively, build 
+	//Alternatively, build the coin json string manually if you don't w
