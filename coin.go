@@ -213,4 +213,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error(err.Error())
 	}
 	//Alternatively, build the coin json string manually if you don't want to use struct marshalling
-	//coinJ
+	//coinJSONasString := `{"docType":"Coin"
