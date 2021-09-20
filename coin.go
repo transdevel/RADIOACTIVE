@@ -215,3 +215,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//Alternatively, build the coin json string manually if you don't want to use struct marshalling
 	//coinJSONasString := `{"docType":"Coin",  "name": "` + coinName + `", "amount": ` + strconv.Itoa(amount) + `, "owner": "` + owner + `"}`
 	//coinJSONasBytes := []byte(str)
+
+	// === Save coin to sta
