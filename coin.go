@@ -216,4 +216,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//coinJSONasString := `{"docType":"Coin",  "name": "` + coinName + `", "amount": ` + strconv.Itoa(amount) + `, "owner": "` + owner + `"}`
 	//coinJSONasBytes := []byte(str)
 
-	// === Save coin to sta
+	// === Save coin to state ===
+	err = stub.PutSta
