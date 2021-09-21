@@ -217,4 +217,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//coinJSONasBytes := []byte(str)
 
 	// === Save coin to state ===
-	err = stub.PutSta
+	err = stub.PutState(coinName, coinJSONasBytes)
+	if 
