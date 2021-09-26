@@ -222,4 +222,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error(err.Error())
 	}
 
-	//  ==== Index the coin
+	//  ==== Index the coin to enable color-based range queries, e.g
