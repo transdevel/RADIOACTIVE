@@ -225,4 +225,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//  ==== Index the coin to enable color-based range queries, e.g. return all blue coins ====
 	//  An 'index' is a normal key/value entry in state.
 	//  The key is a composite key, with the elements that you want to range query on listed first.
-	//  In our case, the composite key is
+	//  In our case, the composite key is based on indexName~color~name.
+	//  This will enab
