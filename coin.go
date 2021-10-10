@@ -228,4 +228,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//  In our case, the composite key is based on indexName~color~name.
 	//  This will enable very efficient state range queries based on composite keys matching indexName~color~*
 	indexName := "amount~name"
-	amountNameIndexKey, err := stub.Cr
+	amountNameIndexKey, err := stub.CreateCompositeKey(indexName, [
