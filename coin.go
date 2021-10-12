@@ -230,4 +230,6 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	indexName := "amount~name"
 	amountNameIndexKey, err := stub.CreateCompositeKey(indexName, []string{coin.Amount, coin.Name})
 	if err != nil {
-		return shim.Error(err.Er
+		return shim.Error(err.Error())
+	}
+	//  Save index entry 
