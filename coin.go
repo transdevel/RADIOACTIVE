@@ -229,4 +229,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	//  This will enable very efficient state range queries based on composite keys matching indexName~color~*
 	indexName := "amount~name"
 	amountNameIndexKey, err := stub.CreateCompositeKey(indexName, []string{coin.Amount, coin.Name})
-	if err
+	if err != nil {
+		return shim.Error(err.Er
