@@ -232,4 +232,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	//  Save index entry 
+	//  Save index entry to state. Only the key name is n
