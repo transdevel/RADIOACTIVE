@@ -232,4 +232,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	//  Save index entry to state. Only the key name is needed, no need to store a duplica
+	//  Save index entry to state. Only the key name is needed, no need to store a duplicate copy of the coin.
+	//  Note
