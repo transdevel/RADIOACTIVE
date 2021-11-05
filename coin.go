@@ -238,4 +238,5 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	stub.PutState(amountNameIndexKey, value)
 
 	// ==== Coin saved and indexed. Return success ====
-	fmt.Println("- end init coi
+	fmt.Println("- end init coin")
+	return shim.Success(n
