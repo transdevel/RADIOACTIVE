@@ -245,4 +245,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	// "coin1",  "aCent",   "bob"
 
 
-func (s *Sma
+func (s *SmartContract) initLedger(APIstub shim.Ch
