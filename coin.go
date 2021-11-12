@@ -242,4 +242,7 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 	return shim.Success(nil)
 }
 	//   0       1       2  
-	// "coi
+	// "coin1",  "aCent",   "bob"
+
+
+func (s *Sma
