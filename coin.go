@@ -247,4 +247,4 @@ func (t *SimpleChaincode) initCoin(stub shim.ChaincodeStubInterface, args []stri
 
 func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
 	coin := []Coin{
-		Coin{Nam
+		Coin{Name: "coin1", Amount: "aCent", O
