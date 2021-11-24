@@ -253,4 +253,4 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 		Coin{Name: "coin4", Amount: "aCent", Owner: "Amalea"},
 		Coin{Name: "coin5", Amount: "aDollar", Owner: "Rafa"},
 		Coin{Name: "coin6", Amount: "aDollar", Owner: "Shen"},
-		Coin
+		Coin{Name: "coin7", Amount: "aCent"
