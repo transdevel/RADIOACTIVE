@@ -260,4 +260,5 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 	}
 
 	i := 0
-	
+	for i < len(coin) {
+		fmt.Pr
