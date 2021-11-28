@@ -263,4 +263,5 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 	for i < len(coin) {
 		fmt.Println("i is ", i)
 		coinAsBytes, _ := json.Marshal(coin[i])
-		APIstub.PutState(strconv.Itoa(i+1), c
+		APIstub.PutState(strconv.Itoa(i+1), coinAsBytes)
+		fmt.Println("Add
