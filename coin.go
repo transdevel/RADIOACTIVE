@@ -267,3 +267,5 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 		fmt.Println("Added", coin[i])
 		i = i + 1
 	}
+
+	return shim.Success(n
