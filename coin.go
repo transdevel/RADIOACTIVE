@@ -268,4 +268,8 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 		i = i + 1
 	}
 
-	return shim.Success(n
+	return shim.Success(nil)
+}
+
+
+// ==============================
