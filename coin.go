@@ -276,4 +276,7 @@ func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Respo
 // readCoin - read a coin from chaincode state
 // ===============================================
 func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []string) pb.Response {
-	var n
+	var name, jsonResp string
+	var err error
+
+	if 
