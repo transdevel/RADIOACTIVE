@@ -280,4 +280,4 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 	var err error
 
 	if len(args) != 1 {
-		return shim
+		return shim.Error("Incorrect number of arguments. Expect
