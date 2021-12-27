@@ -280,4 +280,5 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 	var err error
 
 	if len(args) != 1 {
-		return shim.Error("Incorrect number of arguments. Expect
+		return shim.Error("Incorrect number of arguments. Expecting name of the coin to query")
+	
