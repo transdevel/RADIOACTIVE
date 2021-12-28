@@ -284,4 +284,6 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 	}
 
 	name = args[0]
-	valAsbytes, err := stub.GetState(name) //get the coin from chai
+	valAsbytes, err := stub.GetState(name) //get the coin from chaincode state
+	if err != nil {
+		jsonR
