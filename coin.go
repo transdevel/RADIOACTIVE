@@ -288,4 +288,5 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 	if err != nil {
 		jsonResp = "{\"Error\":\"Failed to get state for " + name + "\"}"
 		return shim.Error(jsonResp)
-	} else if valAs
+	} else if valAsbytes == nil {
+		jsonResp = "{
