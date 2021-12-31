@@ -290,4 +290,7 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error(jsonResp)
 	} else if valAsbytes == nil {
 		jsonResp = "{\"Error\":\"Coin does not exist: " + name + "\"}"
-		return s
+		return shim.Error(jsonResp)
+	}
+
+	return
