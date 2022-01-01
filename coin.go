@@ -293,4 +293,8 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 		return shim.Error(jsonResp)
 	}
 
-	return
+	return shim.Success(valAsbytes)
+}
+
+
+
