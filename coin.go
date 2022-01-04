@@ -300,4 +300,4 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 
 // ==================================================
 // delete - remove a coin key/value pair from state
-/
+// =========================================
