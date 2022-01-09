@@ -303,4 +303,6 @@ func (t *SimpleChaincode) readCoin(stub shim.ChaincodeStubInterface, args []stri
 // ==================================================
 func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 	var jsonResp string
-	v
+	var coinJSON coin
+	if len(args) != 1 {
+		
