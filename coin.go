@@ -305,4 +305,4 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	var jsonResp string
 	var coinJSON coin
 	if len(args) != 1 {
-		
+		return shim.Error("Incorrect number o
