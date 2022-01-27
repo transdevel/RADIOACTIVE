@@ -309,4 +309,4 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	}
 	coinName := args[0]
 
-	// to maintain the
+	// to maintain the color~name index, we need to 
