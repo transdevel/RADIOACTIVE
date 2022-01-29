@@ -310,4 +310,4 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	coinName := args[0]
 
 	// to maintain the color~name index, we need to read the coin first and get its color
-	valAsbytes, err := stub.GetStat
+	valAsbytes, err := stub.GetState(coinName) //get the coin from 
