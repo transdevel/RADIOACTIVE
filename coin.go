@@ -312,4 +312,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	// to maintain the color~name index, we need to read the coin first and get its color
 	valAsbytes, err := stub.GetState(coinName) //get the coin from chaincode state
 	if err != nil {
-		jsonResp = "{\"Error\":\"Failed to get state 
+		jsonResp = "{\"Error\":\"Failed to get state for " + coinName + "\"}"
+		return shi
