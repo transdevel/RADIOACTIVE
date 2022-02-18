@@ -313,4 +313,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	valAsbytes, err := stub.GetState(coinName) //get the coin from chaincode state
 	if err != nil {
 		jsonResp = "{\"Error\":\"Failed to get state for " + coinName + "\"}"
-		return shi
+		return shim.Error(jsonResp)
+	} else if valAsbyte
