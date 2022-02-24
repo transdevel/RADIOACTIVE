@@ -320,4 +320,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	}
 
 	err = json.Unmarshal([]byte(valAsbytes), &coinJSON)
-	if err != n
+	if err != nil {
+		jsonResp = "{\"Error\":\"
