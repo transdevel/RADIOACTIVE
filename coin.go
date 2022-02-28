@@ -325,4 +325,6 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 		return shim.Error(jsonResp)
 	}
 
-	err = stub.DelState(coinName) //remove the coin from chai
+	err = stub.DelState(coinName) //remove the coin from chaincode state
+	if err != nil {
+		return s
