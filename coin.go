@@ -332,4 +332,4 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 
 	// maintain the index
 	indexName := "amount~name"
-	amountNameIndexKey, err := st
+	amountNameIndexKey, err := stub.CreateCompositeKey(indexName, []s
