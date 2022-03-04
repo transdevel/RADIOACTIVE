@@ -330,4 +330,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 		return shim.Error("Failed to delete state:" + err.Error())
 	}
 
-	// maintain th
+	// maintain the index
+	indexName := "amount~nam
