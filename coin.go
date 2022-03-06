@@ -338,4 +338,4 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	}
 
 	//  Delete index entry to state.
-	err =
+	err = stub.DelState(amoun
