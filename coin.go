@@ -342,4 +342,7 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	if err != nil {
 		return shim.Error("Failed to delete state:" + err.Error())
 	}
-	return 
+	return shim.Success(nil)
+}
+
+// =========
