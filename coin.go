@@ -340,4 +340,6 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	//  Delete index entry to state.
 	err = stub.DelState(amountNameIndexKey)
 	if err != nil {
-		return shim.Error("Failed to delete state:"
+		return shim.Error("Failed to delete state:" + err.Error())
+	}
+	return 
