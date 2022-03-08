@@ -345,4 +345,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 	return shim.Success(nil)
 }
 
-// ======================================
+// ===========================================================
+//
