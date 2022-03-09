@@ -346,4 +346,5 @@ func (t *SimpleChaincode) delete(stub shim.ChaincodeStubInterface, args []string
 }
 
 // ===========================================================
-// transfer a coin by setting a new own
+// transfer a coin by setting a new owner name on the coin
+// =======
