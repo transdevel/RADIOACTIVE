@@ -353,4 +353,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	//   0       1
 	// "name", "bob"
 	if len(args) < 2 {
-		return 
+		return shim.Error("Incorrect 
