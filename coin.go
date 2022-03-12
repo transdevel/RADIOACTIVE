@@ -353,4 +353,8 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	//   0       1
 	// "name", "bob"
 	if len(args) < 2 {
-		return shim.Error("Incorrect number of arguments. Expecting 2
+		return shim.Error("Incorrect number of arguments. Expecting 2")
+	}
+
+	coinName := args[0]
+	newOwner 
