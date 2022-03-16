@@ -357,4 +357,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	}
 
 	coinName := args[0]
-	newOwner 
+	newOwner := strings.ToLower(args[1])
+	f
