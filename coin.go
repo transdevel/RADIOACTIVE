@@ -364,4 +364,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	if err != nil {
 		return shim.Error("Failed to get coin:" + err.Error())
 	} else if coinAsBytes == nil {
-		retu
+		return shim.Error("Coin do
