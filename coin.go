@@ -361,4 +361,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	fmt.Println("- start transferCoin ", coinName, newOwner)
 
 	coinAsBytes, err := stub.GetState(coinName)
-	i
+	if err != nil {
+		return shim.Er
