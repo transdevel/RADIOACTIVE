@@ -367,4 +367,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 		return shim.Error("Coin does not exist")
 	}
 
-	coinToTransfer :=
+	coinToTransfer := coin{}
+	err = json.Unmarshal(coinAsBytes,
