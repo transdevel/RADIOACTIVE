@@ -368,4 +368,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	}
 
 	coinToTransfer := coin{}
-	err = json.Unmarshal(coinAsBytes,
+	err = json.Unmarshal(coinAsBytes, &coinToTransfer) //unmarshal
