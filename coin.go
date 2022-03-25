@@ -372,4 +372,6 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	coinToTransfer.Owner = newOwner //c
+	coinToTransfer.Owner = newOwner //change the owner
+
+	coinJSONasBy
