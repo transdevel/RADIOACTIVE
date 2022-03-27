@@ -377,4 +377,7 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	coinJSONasBytes, _ := json.Marshal(coinToTransfer)
 	err = stub.PutState(coinName, coinJSONasBytes) //rewrite the coin
 	if err != nil {
-		return shim.E
+		return shim.Error(err.Error())
+	}
+
+	fmt.Pr
