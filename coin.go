@@ -380,4 +380,8 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 		return shim.Error(err.Error())
 	}
 
-	fmt.Println("- end transferCoin (success
+	fmt.Println("- end transferCoin (success)")
+	return shim.Success(nil)
+}
+
+// ===========
