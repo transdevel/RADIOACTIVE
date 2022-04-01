@@ -384,4 +384,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 	return shim.Success(nil)
 }
 
-// ===============================================================================
+// ===========================================================================================
+// getCoinsByRang
