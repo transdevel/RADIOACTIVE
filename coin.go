@@ -385,4 +385,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 }
 
 // ===========================================================================================
-// getCoinsByRange performs a range query based 
+// getCoinsByRange performs a range query based on the start and end keys pro
