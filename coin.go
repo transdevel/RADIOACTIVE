@@ -388,4 +388,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // getCoinsByRange performs a range query based on the start and end keys provided.
 
 // Read-only function results are not typically submitted to ordering. If the read-only
-// results are submitted to ordering, or if the query is used in an update tr
+// results are submitted to ordering, or if the query is used in an update transaction
+// and submitted to or
