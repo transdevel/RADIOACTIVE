@@ -389,4 +389,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 
 // Read-only function results are not typically submitted to ordering. If the read-only
 // results are submitted to ordering, or if the query is used in an update transaction
-// and submitted to ordering, then the committing peers will re-execute 
+// and submitted to ordering, then the committing peers will re-execute to guarantee that
+// result sets are stable 
