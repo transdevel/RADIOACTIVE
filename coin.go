@@ -392,4 +392,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // and submitted to ordering, then the committing peers will re-execute to guarantee that
 // result sets are stable between endorsement time and commit time. The transaction is
 // invalidated by the committing peers if the result set has changed between endorsement
-// time and commit tim
+// time and commit time.
+// Therefore, range queries are 
