@@ -391,4 +391,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // results are submitted to ordering, or if the query is used in an update transaction
 // and submitted to ordering, then the committing peers will re-execute to guarantee that
 // result sets are stable between endorsement time and commit time. The transaction is
-// invalidated by the committing peers if the result set has changed between
+// invalidated by the committing peers if the result set has changed between endorsement
+// time and commit tim
