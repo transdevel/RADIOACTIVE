@@ -393,4 +393,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // result sets are stable between endorsement time and commit time. The transaction is
 // invalidated by the committing peers if the result set has changed between endorsement
 // time and commit time.
-// Therefore, range queries are 
+// Therefore, range queries are a safe option for performing update t
