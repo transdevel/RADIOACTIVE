@@ -395,4 +395,4 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // time and commit time.
 // Therefore, range queries are a safe option for performing update transactions based on query results.
 // ===========================================================================================
-func (t *SimpleCh
+func (t *SimpleChaincode) getCoinsByRange(stub s
