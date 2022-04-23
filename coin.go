@@ -398,4 +398,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
 	if len(args) < 2 {
-		return shim.Err
+		return shim.Error("Incorrect number of arguments. Expecting 2")
+	}
