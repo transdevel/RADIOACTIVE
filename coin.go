@@ -397,4 +397,5 @@ func (t *SimpleChaincode) transferCoin(stub shim.ChaincodeStubInterface, args []
 // ===========================================================================================
 func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
-	if len(arg
+	if len(args) < 2 {
+		return shim.Err
