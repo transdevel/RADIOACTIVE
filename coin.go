@@ -404,4 +404,4 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 	startKey := args[0]
 	endKey := args[1]
 
-	resultsIte
+	resultsIterator, err := stub.GetStateByRange(sta
