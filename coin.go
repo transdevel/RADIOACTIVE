@@ -408,4 +408,6 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	defer re
+	defer resultsIterator.Close()
+
+	
