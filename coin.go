@@ -411,4 +411,7 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 	defer resultsIterator.Close()
 
 	// buffer is a JSON array containing QueryResults
-	var buffer byt
+	var buffer bytes.Buffer
+	buffer.WriteString("[")
+
+	
