@@ -416,4 +416,6 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 
 	bArrayMemberAlreadyWritten := false
 	for resultsIterator.HasNext() {
-		queryResponse, err := resultsIterator
+		queryResponse, err := resultsIterator.Next()
+		if err != nil {
+			re
