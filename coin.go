@@ -420,4 +420,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 		if err != nil {
 			return shim.Error(err.Error())
 		}
-		// Add a comma before array members, suppress it for the first 
+		// Add a comma before array members, suppress it for the first array member
+		if bArrayMe
