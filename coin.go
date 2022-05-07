@@ -419,4 +419,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 		queryResponse, err := resultsIterator.Next()
 		if err != nil {
 			return shim.Error(err.Error())
-		
+		}
+		// Add a comma before arr
