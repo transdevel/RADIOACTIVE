@@ -424,4 +424,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 		if bArrayMemberAlreadyWritten == true {
 			buffer.WriteString(",")
 		}
-		buffer.W
+		buffer.WriteString("{\"Key\":")
+		buffer.WriteStr
