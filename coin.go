@@ -429,4 +429,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 		buffer.WriteString(queryResponse.Key)
 		buffer.WriteString("\"")
 
-		buffer.WriteString(", \"
+		buffer.WriteString(", \"Record\":")
+		// Record is a JSON obj
