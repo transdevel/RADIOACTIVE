@@ -434,4 +434,7 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 		buffer.WriteString(string(queryResponse.Value))
 		buffer.WriteString("}")
 		bArrayMemberAlreadyWritten = true
-	
+	}
+	buffer.WriteString("]")
+
+	f
