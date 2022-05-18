@@ -437,4 +437,4 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 	}
 	buffer.WriteString("]")
 
-	f
+	fmt.Printf("- getCoinsByRange query
