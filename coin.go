@@ -442,4 +442,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 	return shim.Success(buffer.Bytes())
 }
 
-// ==== Example: GetStateByPartialCompositeKey/RangeQuery =====================================
+// ==== Example: GetStateByPartialCompositeKey/RangeQuery =========================================
+// transferCoinsBasedOnColor wil
