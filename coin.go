@@ -445,4 +445,5 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 // ==== Example: GetStateByPartialCompositeKey/RangeQuery =========================================
 // transferCoinsBasedOnColor will transfer coins of a given color to a certain new owner.
 // Uses a GetStateByPartialCompositeKey (range query) against color~name 'index'.
-// Committing peers will re-execute range queries to guarantee that re
+// Committing peers will re-execute range queries to guarantee that result sets are stable
+// between endor
