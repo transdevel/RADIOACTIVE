@@ -446,4 +446,4 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 // transferCoinsBasedOnColor will transfer coins of a given color to a certain new owner.
 // Uses a GetStateByPartialCompositeKey (range query) against color~name 'index'.
 // Committing peers will re-execute range queries to guarantee that result sets are stable
-// between endorsement time and commit time. 
+// between endorsement time and commit time. The transaction is invalidated by th
