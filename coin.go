@@ -448,4 +448,4 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 // Committing peers will re-execute range queries to guarantee that result sets are stable
 // between endorsement time and commit time. The transaction is invalidated by the
 // committing peers if the result set has changed between endorsement time and commit time.
-// Therefore, range queries are a safe optio
+// Therefore, range queries are a safe option for performing update transactions ba
