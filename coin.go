@@ -450,4 +450,4 @@ func (t *SimpleChaincode) getCoinsByRange(stub shim.ChaincodeStubInterface, args
 // committing peers if the result set has changed between endorsement time and commit time.
 // Therefore, range queries are a safe option for performing update transactions based on query results.
 // ===========================================================================================
-func (t *SimpleC
+func (t *SimpleChaincode) transferCoinsBasedOnAmount
