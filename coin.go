@@ -458,4 +458,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		return shim.Error("Incorrect number of arguments. Expecting 2")
 	}
 
-	a
+	amount := args[0]
+	newOwner := 
