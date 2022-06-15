@@ -455,4 +455,7 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	//   0       1
 	// "Amount", "bob"
 	if len(args) < 2 {
-		return shim.Error("Incorrect
+		return shim.Error("Incorrect number of arguments. Expecting 2")
+	}
+
+	a
