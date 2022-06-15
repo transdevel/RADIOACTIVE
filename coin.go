@@ -455,4 +455,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	//   0       1
 	// "Amount", "bob"
 	if len(args) < 2 {
-		re
+		return shim.Error("Incorrect
