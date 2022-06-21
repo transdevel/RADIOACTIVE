@@ -462,4 +462,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	newOwner := strings.ToLower(args[1])
 	fmt.Println("- start transferCoinsBasedOnAmount ", amount, newOwner)
 
-	// Query the amount~n
+	// Query the amount~name index by color
+	// This will execute 
