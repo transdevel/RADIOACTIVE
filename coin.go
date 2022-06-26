@@ -470,4 +470,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	}
 	defer amountedCoinResultsIterator.Close()
 
-	// Iterat
+	// Iterate through result set and for each coi
