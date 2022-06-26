@@ -468,4 +468,6 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	defer amountedCoinResultsIt
+	defer amountedCoinResultsIterator.Close()
+
+	// Iterat
