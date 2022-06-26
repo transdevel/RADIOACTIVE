@@ -466,4 +466,6 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	// This will execute a key range query on all keys starting with 'color'
 	amountedCoinResultsIterator, err := stub.GetStateByPartialCompositeKey("amount~name", []string{amount})
 	if err != nil {
-		return shim.Error(err.Erro
+		return shim.Error(err.Error())
+	}
+	defer amountedCoinResultsIt
