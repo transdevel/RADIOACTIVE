@@ -471,4 +471,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	defer amountedCoinResultsIterator.Close()
 
 	// Iterate through result set and for each coin found, transfer to newOwner
-	var i 
+	var i int
+	for i = 0; amountedCoinResul
