@@ -475,4 +475,8 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	for i = 0; amountedCoinResultsIterator.HasNext(); i++ {
 		// Note that we don't get the value (2nd return variable), we'll just get the coin name from the composite key
 		responseRange, err := amountedCoinResultsIterator.Next()
-		if err !
+		if err != nil {
+			return shim.Error(err.Error())
+		}
+
+		
