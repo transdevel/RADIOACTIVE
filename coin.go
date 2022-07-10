@@ -479,4 +479,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 			return shim.Error(err.Error())
 		}
 
-		// get the color and name from color~n
+		// get the color and name from color~name composite key
+		object
