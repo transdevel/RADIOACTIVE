@@ -484,4 +484,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		if err != nil {
 			return shim.Error(err.Error())
 		}
-		returnedAmount := compositeKeyP
+		returnedAmount := compositeKeyParts[0]
+		returnedCoinName := composite
