@@ -488,4 +488,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		returnedCoinName := compositeKeyParts[1]
 		fmt.Printf("- found a coin from index:%s amount:%s name:%s\n", objectType, returnedAmount, returnedCoinName)
 
-		// Now call th
+		// Now call the transfer function for the found coin.
