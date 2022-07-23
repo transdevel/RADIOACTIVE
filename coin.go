@@ -490,4 +490,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 
 		// Now call the transfer function for the found coin.
 		// Re-use the same function that is used to transfer individual coins
-		response := t
+		response := t.transferCoin(stub, []string{returned
