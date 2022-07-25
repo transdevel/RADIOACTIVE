@@ -491,4 +491,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		// Now call the transfer function for the found coin.
 		// Re-use the same function that is used to transfer individual coins
 		response := t.transferCoin(stub, []string{returnedCoinName, newOwner})
-		// if the transfer failed break out of loop and return
+		// if the transfer failed break out of loop and return error
+		if response.Status != s
