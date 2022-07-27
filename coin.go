@@ -493,4 +493,8 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		response := t.transferCoin(stub, []string{returnedCoinName, newOwner})
 		// if the transfer failed break out of loop and return error
 		if response.Status != shim.OK {
-			return shim.Error("Transfer failed: " + response.Message
+			return shim.Error("Transfer failed: " + response.Message)
+		}
+	}
+
+	responsePayload := fmt.Sprin
