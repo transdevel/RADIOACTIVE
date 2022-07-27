@@ -497,4 +497,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 		}
 	}
 
-	responsePayload := fmt.Sprin
+	responsePayload := fmt.Sprintf("Transferred %d %s coins to 
