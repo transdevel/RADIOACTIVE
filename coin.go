@@ -502,4 +502,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 	return shim.Success([]byte(responsePayload))
 }
 
-// =======Rich queries =====
+// =======Rich queries =============================================
