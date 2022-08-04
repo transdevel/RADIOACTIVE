@@ -499,4 +499,7 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 
 	responsePayload := fmt.Sprintf("Transferred %d %s coins to %s", i, amount, newOwner)
 	fmt.Println("- end transferCoinsBasedOnAmount: " + responsePayload)
-	return shim.Success([]byte(responsePayl
+	return shim.Success([]byte(responsePayload))
+}
+
+// =======Rich queries =====
