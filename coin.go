@@ -503,4 +503,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 }
 
 // =======Rich queries =========================================================================
-// Two examples of rich queries ar
+// Two examples of rich queries are provided below (parameterized query 
