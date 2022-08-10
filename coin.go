@@ -506,4 +506,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // Two examples of rich queries are provided below (parameterized query and ad hoc query).
 // Rich queries pass a query string to the state database.
 // Rich queries are only supported by state database implementations
-//  that support rich query (
+//  that support rich query (e.g. CouchDB).
+// The que
