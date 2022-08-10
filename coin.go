@@ -507,4 +507,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // Rich queries pass a query string to the state database.
 // Rich queries are only supported by state database implementations
 //  that support rich query (e.g. CouchDB).
-// The que
+// The query string is in the syntax o
