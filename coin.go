@@ -509,4 +509,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 //  that support rich query (e.g. CouchDB).
 // The query string is in the syntax of the underlying state database.
 // With rich queries there is no guarantee that the result set hasn't changed between
-//  
+//  endorsement time and commit time, aka 'pha
