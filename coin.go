@@ -511,4 +511,5 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // With rich queries there is no guarantee that the result set hasn't changed between
 //  endorsement time and commit time, aka 'phantom reads'.
 // Therefore, rich queries should not be used in update transactions, unless the
-// application handles the possibility of result set changes between en
+// application handles the possibility of result set changes between endorsement and commit time.
+// Ri
