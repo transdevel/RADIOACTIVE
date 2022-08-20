@@ -513,4 +513,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // Therefore, rich queries should not be used in update transactions, unless the
 // application handles the possibility of result set changes between endorsement and commit time.
 // Rich queries can be used for point-in-time queries against a peer.
-// =============
+// ===========================================
