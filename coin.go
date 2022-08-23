@@ -515,4 +515,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // Rich queries can be used for point-in-time queries against a peer.
 // ============================================================================================
 
-// ===== Example: Paramet
+// ===== Example: Parameterized rich query ======================
