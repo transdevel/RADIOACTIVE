@@ -516,4 +516,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // ============================================================================================
 
 // ===== Example: Parameterized rich query =================================================
-// qu
+// queryCoinsByOwner queries for coins based
