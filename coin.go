@@ -517,4 +517,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 
 // ===== Example: Parameterized rich query =================================================
 // queryCoinsByOwner queries for coins based on a passed in owner.
-// This is an example of a parameterized query whe
+// This is an example of a parameterized query where the query logic is baked into t
