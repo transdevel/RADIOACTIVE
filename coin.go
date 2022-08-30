@@ -519,4 +519,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // queryCoinsByOwner queries for coins based on a passed in owner.
 // This is an example of a parameterized query where the query logic is baked into the chaincode,
 // and accepting a single query parameter (owner).
-// Only ava
+// Only available on state databases that suppor
