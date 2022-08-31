@@ -521,4 +521,4 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // and accepting a single query parameter (owner).
 // Only available on state databases that support rich query (e.g. CouchDB)
 // =========================================================================================
-func (t *
+func (t *SimpleChaincode) queryCoins
