@@ -526,4 +526,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 	//   0
 	// "bob"
 	if len(args) < 1 {
-		return shim.Error("Incorrect number
+		return shim.Error("Incorrect number of arguments. Expecting 1")
+	}
