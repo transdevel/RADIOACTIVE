@@ -523,4 +523,6 @@ func (t *SimpleChaincode) transferCoinsBasedOnAmount(stub shim.ChaincodeStubInte
 // =========================================================================================
 func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
-	//
+	//   0
+	// "bob"
+	if len(args) < 1
