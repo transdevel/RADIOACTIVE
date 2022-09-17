@@ -525,4 +525,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 
 	//   0
 	// "bob"
-	if len(args) < 1
+	if len(args) < 1 {
+		return shim.Error("Incorrect number
