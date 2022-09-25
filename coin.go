@@ -531,4 +531,4 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 
 	owner := strings.ToLower(args[0])
 
-	queryString := fmt.Sprintf("{\"sele
+	queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"coin\",\"owner
