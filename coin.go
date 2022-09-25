@@ -529,4 +529,6 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 		return shim.Error("Incorrect number of arguments. Expecting 1")
 	}
 
-	owner := strings.ToLower(args[0
+	owner := strings.ToLower(args[0])
+
+	queryString := fmt.Sprintf("{\"sele
