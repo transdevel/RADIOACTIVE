@@ -533,4 +533,6 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 
 	queryString := fmt.Sprintf("{\"selector\":{\"docType\":\"coin\",\"owner\":\"%s\"}}", owner)
 
-	queryResults, err := getQueryResultForQueryString(stub, queryS
+	queryResults, err := getQueryResultForQueryString(stub, queryString)
+	if err != nil {
+		return shim.Er
