@@ -537,4 +537,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-	retu
+	return shim.Success(queryResults)
+}
