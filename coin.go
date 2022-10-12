@@ -539,3 +539,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 	}
 	return shim.Success(queryResults)
 }
+
+// ===== Example: Ad hoc rich q
