@@ -542,3 +542,4 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 
 // ===== Example: Ad hoc rich query ========================================================
 // queryCoins uses a query string to perform a query for coins.
+// Query string matching state datab
