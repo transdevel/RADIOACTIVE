@@ -544,4 +544,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 // queryCoins uses a query string to perform a query for coins.
 // Query string matching state database syntax is passed in and executed as is.
 // Supports ad hoc queries that can be defined at runtime by the client.
-// If this is not desired, follow the queryCoinsForOwner example for parameterized 
+// If this is not desired, follow the queryCoinsForOwner example for parameterized queries.
+// Only available on sta
