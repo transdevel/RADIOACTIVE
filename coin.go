@@ -546,4 +546,5 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 // Supports ad hoc queries that can be defined at runtime by the client.
 // If this is not desired, follow the queryCoinsForOwner example for parameterized queries.
 // Only available on state databases that support rich query (e.g. CouchDB)
-// ================================================================================
+// =========================================================================================
+func (t *SimpleChai
