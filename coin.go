@@ -547,4 +547,4 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 // If this is not desired, follow the queryCoinsForOwner example for parameterized queries.
 // Only available on state databases that support rich query (e.g. CouchDB)
 // =========================================================================================
-func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeS
+func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []string) pb.
