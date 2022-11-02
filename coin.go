@@ -550,4 +550,6 @@ func (t *SimpleChaincode) queryCoinsByOwner(stub shim.ChaincodeStubInterface, ar
 func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
 	//   0
-	// "queryStri
+	// "queryString"
+	if len(args) < 1 {
+		return shim.Error
