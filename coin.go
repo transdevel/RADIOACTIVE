@@ -552,4 +552,4 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 	//   0
 	// "queryString"
 	if len(args) < 1 {
-		return shim.Error
+		return shim.Error("Incorrect number of argument
