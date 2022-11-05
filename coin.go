@@ -555,4 +555,6 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 		return shim.Error("Incorrect number of arguments. Expecting 1")
 	}
 
-	queryString :=
+	queryString := args[0]
+
+	queryResults, err := getQ
