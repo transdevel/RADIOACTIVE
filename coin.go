@@ -557,4 +557,4 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 
 	queryString := args[0]
 
-	queryResults, err := getQ
+	queryResults, err := getQueryResultForQueryString(stub, quer
