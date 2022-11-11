@@ -559,4 +559,6 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 
 	queryResults, err := getQueryResultForQueryString(stub, queryString)
 	if err != nil {
-		retur
+		return shim.Error(err.Error())
+	}
+	return shim
