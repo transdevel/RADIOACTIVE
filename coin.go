@@ -564,4 +564,4 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 	return shim.Success(queryResults)
 }
 
-// ================
+// =========================================================
