@@ -566,4 +566,4 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 
 // =========================================================================================
 // getQueryResultForQueryString executes the passed in query string.
-// Result set i
+// Result set is built and returned as a byte arra
