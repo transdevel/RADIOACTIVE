@@ -572,4 +572,5 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 
 	fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
 
-	resultsIterator, err
+	resultsIterator, err := stub.GetQueryResult(queryString)
+	
