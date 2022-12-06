@@ -570,4 +570,6 @@ func (t *SimpleChaincode) queryCoins(stub shim.ChaincodeStubInterface, args []st
 // =========================================================================================
 func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString string) ([]byte, error) {
 
-	fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", que
+	fmt.Printf("- getQueryResultForQueryString queryString:\n%s\n", queryString)
+
+	resultsIterator, err
