@@ -578,3 +578,4 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 	}
 	defer resultsIterator.Close()
 
+	// buffer is a JSON array c
