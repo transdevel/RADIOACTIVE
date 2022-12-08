@@ -576,3 +576,5 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 	if err != nil {
 		return nil, err
 	}
+	defer resultsIterator.Close()
+
