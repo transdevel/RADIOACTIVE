@@ -586,4 +586,6 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 	for resultsIterator.HasNext() {
 		queryResponse, err := resultsIterator.Next()
 		if err != nil {
-			return nil, 
+			return nil, err
+		}
+		// Add a comma
