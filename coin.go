@@ -583,4 +583,5 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 	buffer.WriteString("[")
 
 	bArrayMemberAlreadyWritten := false
-	for resultsIterator.
+	for resultsIterator.HasNext() {
+		queryResponse, err :=
