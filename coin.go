@@ -592,4 +592,6 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		if bArrayMemberAlreadyWritten == true {
 			buffer.WriteString(",")
 		}
-		buff
+		buffer.WriteString("{\"Key\":")
+		buffer.WriteString("\"")
+		buffer.Wr
