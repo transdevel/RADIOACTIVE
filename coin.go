@@ -590,4 +590,6 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		}
 		// Add a comma before array members, suppress it for the first array member
 		if bArrayMemberAlreadyWritten == true {
-	
+			buffer.WriteString(",")
+		}
+		buff
