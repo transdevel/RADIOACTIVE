@@ -594,4 +594,5 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		}
 		buffer.WriteString("{\"Key\":")
 		buffer.WriteString("\"")
-		buffer.Wr
+		buffer.WriteString(queryResponse.Key)
+		buffe
