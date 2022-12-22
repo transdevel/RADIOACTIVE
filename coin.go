@@ -598,4 +598,4 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		buffer.WriteString("\"")
 
 		buffer.WriteString(", \"Record\":")
-		// Rec
+		// Record is a JSON object, so we w
