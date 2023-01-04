@@ -601,4 +601,6 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		// Record is a JSON object, so we write as-is
 		buffer.WriteString(string(queryResponse.Value))
 		buffer.WriteString("}")
-		bArrayMemberAlreadyWritte
+		bArrayMemberAlreadyWritten = true
+	}
+	buffer.WriteString
