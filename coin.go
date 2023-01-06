@@ -603,4 +603,6 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 		buffer.WriteString("}")
 		bArrayMemberAlreadyWritten = true
 	}
-	buffer.WriteString
+	buffer.WriteString("]")
+
+	fmt.Printf("- getQ
