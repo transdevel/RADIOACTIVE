@@ -607,4 +607,7 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 
 	fmt.Printf("- getQueryResultForQueryString queryResult:\n%s\n", buffer.String())
 
-	return buffer.Bytes(), 
+	return buffer.Bytes(), nil
+}
+
+func (t *SimpleChaincod
