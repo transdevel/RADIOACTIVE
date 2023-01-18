@@ -610,4 +610,4 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 	return buffer.Bytes(), nil
 }
 
-func (t *SimpleChaincod
+func (t *SimpleChaincode) getHistoryForCoin(stub shim.Chai
