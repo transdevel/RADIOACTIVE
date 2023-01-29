@@ -613,3 +613,4 @@ func getQueryResultForQueryString(stub shim.ChaincodeStubInterface, queryString 
 func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, args []string) pb.Response {
 
 	if len(args) < 1 {
+		return shim.Error("Incorrect number of arg
