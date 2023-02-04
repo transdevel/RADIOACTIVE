@@ -616,4 +616,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		return shim.Error("Incorrect number of arguments. Expecting 1")
 	}
 
-	coinName
+	coinName := args[0]
+
+	fmt.Printf("- start getHis
