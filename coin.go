@@ -618,4 +618,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 	coinName := args[0]
 
-	fmt.Printf("- start getHis
+	fmt.Printf("- start getHistoryForCoin: %s\n", coinName)
+
+	r
