@@ -622,4 +622,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 	resultsIterator, err := stub.GetHistoryForKey(coinName)
 	if err != nil {
-		return shim.Error(err.Erro
+		return shim.Error(err.Error())
+	}
+	defer resultsIterato
