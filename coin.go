@@ -628,4 +628,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 	// buffer is a JSON array containing historic values for the coin
 	var buffer bytes.Buffer
-	buffer.WriteStrin
+	buffer.WriteString("[")
+
+	bArrayMemberAlreadyWritten := false
