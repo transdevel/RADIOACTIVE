@@ -636,4 +636,4 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		if err != nil {
 			return shim.Error(err.Error())
 		}
-		// Add a 
+		// Add a comma before array members, suppress it 
