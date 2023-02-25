@@ -632,4 +632,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 	bArrayMemberAlreadyWritten := false
 	for resultsIterator.HasNext() {
-		response, err := resultsIterato
+		response, err := resultsIterator.Next()
+		if err != nil {
+			return 
