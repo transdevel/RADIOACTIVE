@@ -640,4 +640,4 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		if bArrayMemberAlreadyWritten == true {
 			buffer.WriteString(",")
 		}
-		buffe
+		buffer.WriteString("{\"TxId\":")
