@@ -642,4 +642,5 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		}
 		buffer.WriteString("{\"TxId\":")
 		buffer.WriteString("\"")
-		buffe
+		buffer.WriteString(response.TxId)
+		buff
