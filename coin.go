@@ -645,4 +645,5 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		buffer.WriteString(response.TxId)
 		buffer.WriteString("\"")
 
-		buffer.WriteString(", 
+		buffer.WriteString(", \"Value\":")
+		// if it was a dele
