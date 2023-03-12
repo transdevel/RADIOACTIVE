@@ -647,4 +647,4 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 		buffer.WriteString(", \"Value\":")
 		// if it was a delete operation on given key, then we need to set the
-		//corresponding value
+		//corresponding value null. Else, we will write the respo
