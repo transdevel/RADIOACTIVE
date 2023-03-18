@@ -649,4 +649,5 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		// if it was a delete operation on given key, then we need to set the
 		//corresponding value null. Else, we will write the response.Value
 		//as-is (as the Value itself a JSON coin)
-		if response.IsDel
+		if response.IsDelete {
+			buffer.WriteString("n
