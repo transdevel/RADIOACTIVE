@@ -655,3 +655,4 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 			buffer.WriteString(string(response.Value))
 		}
 
+		buffer.WriteString(", \"Timestamp\
