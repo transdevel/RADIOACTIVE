@@ -652,4 +652,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		if response.IsDelete {
 			buffer.WriteString("null")
 		} else {
-			buffer.WriteString(str
+			buffer.WriteString(string(response.Value))
+		}
+
