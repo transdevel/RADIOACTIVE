@@ -660,4 +660,4 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		buffer.WriteString(time.Unix(response.Timestamp.Seconds, int64(response.Timestamp.Nanos)).String())
 		buffer.WriteString("\"")
 
-		buffer
+		buffer.WriteString(", \"IsDelete\":"
