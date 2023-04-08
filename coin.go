@@ -668,4 +668,6 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 		buffer.WriteString("}")
 		bArrayMemberAlreadyWritten = true
 	}
-	buffer.WriteStr
+	buffer.WriteString("]")
+
+	fmt.Printf("- getHistoryFo
