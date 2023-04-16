@@ -672,4 +672,5 @@ func (t *SimpleChaincode) getHistoryForCoin(stub shim.ChaincodeStubInterface, ar
 
 	fmt.Printf("- getHistoryForCoin returning:\n%s\n", buffer.String())
 
-	return shim.
+	return shim.Success(buffer.Bytes())
+}
